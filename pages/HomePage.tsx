@@ -7,7 +7,7 @@ const HomePage: React.FC = () => {
     { name: 'Email', url: 'mailto:ensage3@gmail.com', icon: Mail, label: 'ensage3@gmail.com' },
     // { name: 'Github', url: 'https://github.com/miyosep', icon: Github, label: '@smiyosep' },
     { name: 'Twitter', url: 'https://x.com/sagekim_jh', icon: Twitter, label: '@sagekim_jh' },
-    { name: 'Instagram', url: 'https://www.instagram.com/sage.xk/', icon: Instagram, label: '@sage.xk' },
+    { name: 'Instagram', url: 'https://www.instagram.com/sagejh_/', icon: Instagram, label: '@sagejh_' },
     { name: 'Curius', url: 'https://curius.app/sage-kim', icon: BookMarked, label: 'sage-kim' },
     { name: 'NaverBlog', url: 'https://blog.naver.com/nomorecoercion', icon:BookOpen, label: 'nomorecoercion' },
   ];
