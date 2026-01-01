@@ -5,7 +5,7 @@ import { Mail, Instagram, Twitter, Github, BookMarked, BookOpen } from 'lucide-r
 const HomePage: React.FC = () => {
   const socialLinks = [
     { name: 'Email', url: 'mailto:ensage3@gmail.com', icon: Mail, label: 'ensage3@gmail.com' },
-    { name: 'Github', url: 'https://github.com/miyosep', icon: Github, label: '@smiyosep' },
+    // { name: 'Github', url: 'https://github.com/miyosep', icon: Github, label: '@smiyosep' },
     { name: 'Twitter', url: 'https://x.com/sagekim_jh', icon: Twitter, label: '@sagekim_jh' },
     { name: 'Instagram', url: 'https://www.instagram.com/sage.xk/', icon: Instagram, label: '@sage.xk' },
     { name: 'Curius', url: 'https://curius.app/sage-kim', icon: BookMarked, label: 'sage-kim' },
