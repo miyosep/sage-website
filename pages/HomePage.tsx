@@ -22,13 +22,15 @@ const HomePage: React.FC = () => {
           <div className="absolute -top-16 -left-16 w-48 h-48 bg-sage-200/30 rounded-full blur-3xl pointer-events-none"></div>
           
           <div className="space-y-6">
-            <h3 className="font-serif text-3xl md:text-5xl leading-[1.05] text-stone-900 tracking-tight">
-              Welcome! <br /> I'm Sage :)
+            <h3 className="font-serif text-2xl md:text-3xl leading-[1.05] text-stone-900 tracking-tight">
+              
+
+              Hey <br /> I'm Sage :)
               
             </h3>
             
             <p className="font-sans text-lg md:text-xl text-stone-500 leading-relaxed max-w-lg border-l-2 border-sage-300 pl-6">
-              Please feel free to click on any links that look interesting to you~
+              see also:
             </p>
           </div>
 
