@@ -4,7 +4,7 @@ import { Zap, CheckCircle2 } from 'lucide-react';
 
 const AboutPage: React.FC = () => {
   const currentQuests = [
-    "Thinking about real-world privacy-preserving system",
+    "Thinking about some application ideas involving cryptography",
     "Studying DeFi smart contracts",
     "Learning Japanese (DuoLingo)",
     "Math tutor for Mongolian international students",
@@ -12,7 +12,7 @@ const AboutPage: React.FC = () => {
 
   const recentQuests = [
     "Participating in a softball tournament on behalf of Yuanpei College, PKU",
-    "Attending exchange program in EdUHK",
+    "Attending exchange program in EdUHK, Hong Kong",
     "Joining the PKU Blockchain Association",
   ];
 
@@ -61,16 +61,16 @@ const AboutPage: React.FC = () => {
       {/* Main Bio */}
       <div className="prose prose-stone prose-lg font-serif text-stone-700 leading-loose max-w-none">
         <p>
-          I'm primarily interested in theoratical and applied cryptography, blockchain and privacy rights more generally.
+          I'm a Korean math student at Peking University, deeply into theoretical and applied cryptography, blockchain, and all sorts of math-related stuff.
         </p>
         <p>
-          I’m Korean and currently studying mathematics at Peking University. I think a lot about community building and governance systems, and I hope to explore different kinds of volunteering work—I believe these things can help make the world a better place.
+          I spend a lot of time thinking about how we can build better social systems—especially through stronger privacy and decentralization.
         </p>
         <p>
-          I also enjoy baseball, softball, and various other sports. Even though my comfort zone is math, I’m trying to explore more diverse fields. You can find the things I’m curious about on my “Curius” page on the Home section of my website(click the bookmark icon).
+          Outside of that, I love playing baseball, softball, and pretty much any sport. I also enjoy creating generative art with code.
         </p>
         <p>
-          If anything interests you, feel free to reach out!
+          I've always loved meeting new people and learning about different cultures, so feel free to reach out if you'd like to connect!
         </p>
       </div>
     </div>
