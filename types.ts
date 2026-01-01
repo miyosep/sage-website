@@ -8,15 +8,6 @@ export interface BlogPost {
   slug: string;
 }
 
-export interface SubstackPost {
-  id: string;
-  title: string;
-  link: string;
-  pubDate: string;
-  description: string;
-  thumbnail?: string;
-}
-
 export interface SocialLink {
   name: string;
   url: string;
