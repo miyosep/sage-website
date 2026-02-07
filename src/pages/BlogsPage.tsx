@@ -8,7 +8,6 @@ const BlogsPage: React.FC = () => {
       <div>
         <p className="font-sans text-stone-500">Short-form thoughts and notes.</p>
       </div>
-
       <div className="space-y-10">
         {BLOG_POSTS.map((post) => (
           <article key={post.id} className="group">
@@ -21,11 +20,7 @@ const BlogsPage: React.FC = () => {
                   {post.date}
                 </span>
               </div>
-              
-              <p className="font-serif text-stone-600 leading-relaxed">
-                {post.excerpt}
-              </p>
-              
+              <p className="font-serif text-stone-600 leading-relaxed">{post.excerpt}</p>
               <div className="pt-2">
                 <span className="inline-flex items-center font-sans text-xs font-medium text-stone-400 uppercase tracking-wider group-hover:text-stone-800 transition-colors">
                   Read<span className="ml-1">→</span>

@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 .vercel
+
+# Generated blog index (built from src/content/posts/*.md)
+src/content/posts/index.generated.json

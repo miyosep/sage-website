@@ -6,14 +6,11 @@ import AboutPage from './pages/AboutPage';
 import BlogsPage from './pages/BlogsPage';
 import BlogPostPage from './pages/BlogPostPage';
 
-// ScrollToTop helper component
 const ScrollToTop = () => {
   const { pathname } = useLocation();
-  
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
-  
   return null;
 };
 

@@ -4,7 +4,6 @@ import { clsx } from 'clsx';
 
 const Navigation: React.FC = () => {
   const location = useLocation();
-
   const navItems = [
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About' },
@@ -17,7 +16,6 @@ const Navigation: React.FC = () => {
         <Link to="/" className="font-serif text-2xl tracking-tight font-semibold text-sage-800 hover:text-sage-600 transition-colors">
           sage.jh
         </Link>
-        
         <div className="flex space-x-5 md:space-x-8 text-sm font-sans tracking-wide">
           {navItems.map((item) => (
             <Link

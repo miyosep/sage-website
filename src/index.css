@@ -1,0 +1,9 @@
+/* Base styles (fallback if Tailwind CDN is slow or blocked) */
+body {
+  background-color: #fbfaf8;
+  color: #1f1d1b;
+}
+
+#root {
+  min-height: 100vh;
+}

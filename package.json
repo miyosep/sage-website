@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predev": "node scripts/build-posts.mjs",
     "dev": "vite",
+    "prebuild": "node scripts/build-posts.mjs",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -18,6 +20,7 @@
     "react-router-dom": "^6.28.0"
   },
   "devDependencies": {
+    "gray-matter": "^4.0.3",
     "@types/node": "^22.14.0",
     "@types/react": "^19.2.6",
     "@types/react-dom": "^19.2.3",

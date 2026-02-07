@@ -3,7 +3,7 @@ export interface BlogPost {
   title: string;
   excerpt: string;
   date: string;
-  content: string; // Markdown content
+  content: string;
   readTime: string;
   slug: string;
 }

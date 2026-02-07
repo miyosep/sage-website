@@ -14,14 +14,13 @@ const BlogPostPage: React.FC = () => {
 
   return (
     <article className="space-y-8 animate-in fade-in duration-500">
-      <Link 
-        to="/blogs" 
+      <Link
+        to="/blogs"
         className="inline-flex items-center text-stone-500 hover:text-stone-900 transition-colors font-sans text-sm group mb-4"
       >
         <ArrowLeft className="w-4 h-4 mr-1 group-hover:-translate-x-1 transition-transform" />
         Back to Blogs
       </Link>
-
       <header className="space-y-4 pb-6 border-b border-stone-200">
         <h1 className="font-serif text-3xl md:text-5xl text-stone-900 leading-tight">
           {post.title}
@@ -32,11 +31,9 @@ const BlogPostPage: React.FC = () => {
           <span>{post.readTime}</span>
         </div>
       </header>
-
       <div className="mt-8">
         <MarkdownRenderer content={post.content} />
       </div>
-      
     </article>
   );
 };
