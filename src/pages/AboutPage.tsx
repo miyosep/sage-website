@@ -3,15 +3,14 @@ import { Zap, CheckCircle2 } from 'lucide-react';
 
 const AboutPage: React.FC = () => {
   const currentQuests = [
-    "Thinking about some application ideas involving cryptography",
-    "Studying DeFi smart contracts",
-    "Learning Japanese (DuoLingo)",
-    "Math tutor for Mongolian international students",
+    "Researching prediction markets",
+    "Studying various blockchain topics in depth",
+    "Attending my first hackathon in hk",
   ];
   const recentQuests = [
-    "Participating in a softball tournament on behalf of Yuanpei College, PKU",
-    "Attending exchange program in EdUHK, Hong Kong",
-    "Joining the PKU Blockchain Association",
+    "Learning chess",
+    "Attending an exchange program in EdUHK",
+    "Tutoring math for Mongolian international students",
   ];
 
   return (
