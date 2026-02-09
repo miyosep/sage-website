@@ -50,7 +50,7 @@ const AboutPage: React.FC = () => {
         </div>
       </div>
       <div className="prose prose-stone prose-lg font-serif text-stone-700 leading-loose max-w-none">
-        <p>I'm a math student at Peking University, deeply into theoretical and applied cryptography, blockchain, and all sorts of math-related stuff.</p>
+        <p>I'm a undergraduate math student at Peking University, deeply into theoretical and applied cryptography, blockchain, and all sorts of math-related stuff.</p>
         <p>I spend a lot of time thinking about how we can build better social systems—especially through stronger privacy and decentralization.</p>
         <p>Outside of that, I love playing baseball, softball, and pretty much any sport. I also enjoy creating generative art with code.</p>
         <p>I've always loved meeting new people and learning about different cultures, so feel free to reach out if you'd like to connect!</p>
