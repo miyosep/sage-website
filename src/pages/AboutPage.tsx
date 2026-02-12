@@ -9,7 +9,7 @@ const AboutPage: React.FC = () => {
   ];
   const recentQuests = [
     "Learning chess",
-    "Attending an exchange program in EdUHK",
+    "Studying basic DeFi protocols",
     "Tutoring math for Mongolian international students",
   ];
 
@@ -50,7 +50,7 @@ const AboutPage: React.FC = () => {
         </div>
       </div>
       <div className="prose prose-stone prose-lg font-serif text-stone-700 leading-loose max-w-none">
-        <p>I'm a undergraduate math student at Peking University, deeply into theoretical and applied cryptography, blockchain, and all sorts of math-related stuff.</p>
+        <p>I'm an undergraduate math student at Peking University, deeply into theoretical and applied cryptography, blockchain, and all sorts of math-related stuff.</p>
         <p>I spend a lot of time thinking about how we can build better social systems—especially through stronger privacy and decentralization.</p>
         <p>Outside of that, I'm attending various activites in web3.</p>
         <p>I've always loved meeting new people and learning about different cultures and languages, so feel free to reach out if you'd like to connect!</p>
