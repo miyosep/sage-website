@@ -6,6 +6,7 @@ const AboutPage: React.FC = () => {
     "Researching prediction markets",
     "Studying various blockchain topics in depth",
     "Attending my first hackathon in hk",
+    "Starting to learn Rust",
   ];
   const recentQuests = [
     "Learning chess",
