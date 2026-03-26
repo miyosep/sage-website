@@ -3,8 +3,7 @@ import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-d
 import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
-import BlogsPage from './pages/BlogsPage';
-import BlogPostPage from './pages/BlogPostPage';
+import ResumePage from './pages/ResumePage';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -22,8 +21,7 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/blogs" element={<BlogsPage />} />
-          <Route path="/blogs/:slug" element={<BlogPostPage />} />
+          <Route path="/resume" element={<ResumePage />} />
         </Routes>
       </Layout>
     </Router>

@@ -25,8 +25,7 @@ class ErrorBoundary extends React.Component<
             {this.state.error?.message ?? 'Unknown error'}
           </p>
           <p style={{ color: '#78716c', marginTop: 16, fontSize: 14 }}>
-            Try running <code>npm run dev</code> again. If you just added a new blog post, make sure
-            <code> src/content/posts/index.generated.json</code> was created (predev runs before dev).
+            Try running <code>npm run dev</code> again.
           </p>
         </div>
       );
