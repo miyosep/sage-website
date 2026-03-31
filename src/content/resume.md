@@ -1,6 +1,6 @@
 # Sage Kim (Juhyeong Kim)
 
-**Email:** [ensage3@gmail.com](mailto:ensage3@gmail.com)
+**Email:** [ensage3@gmail.com](mailto:ensage3@gmail.com) | **LinkedIn:** [linkedin.com/in/sage-kim](https://www.linkedin.com/in/sage-kim-b19713321/)
 ---
 
 ## Education
