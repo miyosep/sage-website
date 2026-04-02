@@ -11,7 +11,7 @@ _Yuanpei College (Honors College)_
 _Sep. 2023 -- Present_  
 
 **The Education University of Hong Kong**  
-_Exchage Program_   
+_Exchange Program_   
 _Jul. 2025 -- Aug. 2025_
 
 ---
@@ -26,7 +26,7 @@ _Jul. 2025 -- Aug. 2025_
   - Investigated into ZKP with peers to enhance mathematical understanding.
 
 - **Undergraduate Researcher**    
-  _March 2025 -- Febuary 2026_  
+  _March 2025 -- February 2026_  
   _Peking University, Beijing_ 
   - Conducted research on topics in algebraic number theory. 
 

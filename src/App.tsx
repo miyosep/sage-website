@@ -1,9 +1,17 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from 'react-router-dom';
 import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
+
+const basename =
+  import.meta.env.BASE_URL.replace(/\/$/, '') || '/';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -15,15 +23,15 @@ const ScrollToTop = () => {
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename={basename}>
       <ScrollToTop />
-      <Layout>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/resume" element={<ResumePage />} />
-        </Routes>
-      </Layout>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="about" element={<AboutPage />} />
+          <Route path="resume" element={<ResumePage />} />
+        </Route>
+      </Routes>
     </Router>
   );
 };
