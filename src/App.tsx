@@ -1,4 +1,5 @@
 import React from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import {
   BrowserRouter as Router,
   Routes,
@@ -24,6 +25,7 @@ const ScrollToTop = () => {
 const App: React.FC = () => {
   return (
     <Router basename={basename}>
+      <Analytics />
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
