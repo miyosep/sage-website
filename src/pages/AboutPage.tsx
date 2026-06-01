@@ -54,7 +54,14 @@ const AboutPage: React.FC = () => {
         <p>I'm an undergraduate math student at Peking University, deeply into theoretical and applied cryptography and all sorts of math-related stuff.</p>
         <p>In my free time, I have some hobbies like researching DPRK(in a legal way), playing baseball/softball, and learning unfamiliar languages.</p>
         <p>I'm kind of introvert, but I'm trying to be more extrovert by meeting new people and learning different cultures and languages. so feel free to reach out if you'd like to connect!</p>
-        <p>signal: sagejh.31, proton mail: sagejhkim@proton.me</p>
+        <p>
+          <span className="block text-sm text-stone-500 italic mb-2">
+            I prefer Signal and Proton Mail for private contact.
+          </span>
+          signal: sagejh.31
+          <br />
+          proton mail: sagejhkim@proton.me
+        </p>
       </div>
     </div>
   );
